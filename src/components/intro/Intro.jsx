@@ -11,6 +11,7 @@ export default function Intro() {
       backDelay: 1500,
       backSpeed: 60,
       strings: ["JavaScript", "typeScript", "react", "UX/UI", "QA"]
+      // strings: ["Marney", "Seth", "Isaac"]
     })
   },[])
   return (
