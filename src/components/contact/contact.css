@@ -1,3 +1,63 @@
 .contact{
-  background-color: lightblue;
+  /* background-color: lightblue; */
+  background-color: white;
+  display: flex;
+}
+
+.left{
+  flex:.5;
+  overflow:hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.fa-handshake{
+  height: auto;
+  width: auto;
+  color:orange;
+  font-size: 250px;
+  overflow: none;
+}
+
+.right{
+ flex:.5;
+ display: flex;
+ flex-direction: column;  
+ align-items: center;
+ justify-content: center;
+ overflow: hidden;
+}
+.contactTitle{
+  font-size: 30px;
+  color: rgb(30,1,43);
+}
+.contactForm{
+  width: 70%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; 
+}
+
+#formInputName, #formInputEmail{
+  width: 300px;
+  height: 30px;
+  font-size: 14px;
+}
+
+#formTextArea{
+  width: 300px;
+  height: 200px;
+  font-size: 16px;
+}
+#formButton{
+  width: 150px;height: 30px;
+  color: whitesmoke;
+  background-color: orange;
+  border:none;
+  border-radius: 10px;
+  font-weight: 500;
+  cursor: pointer;
 }

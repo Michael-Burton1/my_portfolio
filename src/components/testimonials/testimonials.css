@@ -1,3 +1,81 @@
-.testimonials{
-  background-color: lightslategray;
+.testimonials {
+  background-color: rgb(167, 191, 167);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+
+.testimonialTitle {
+  color: white;
+  font-size: 50px;
+}
+
+.testimonialContainer {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.testimonialCard {
+  background-color: white;
+  width: 250px;
+  height: 70%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px -8px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  transition: all 1s ease;
+}
+
+
+.testimonialCard.featured{
+    width: 300px;
+    height: 75%;
+    margin: 0 30px;
+}
+
+      .testimonialCard:hover{
+          transform: scale(1.1);
+      }
+
+.cardTop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.user {
+  /* height: 25px; */
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 30px;
+}
+
+.cardCenter {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(250, 244, 245);
+}
+.cardBottom {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.userName {
+  margin-bottom: 5px;
+}
+
+.userTitile{
+    color: rgb(121, 115, 115);
 }

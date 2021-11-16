@@ -1,3 +1,31 @@
 .about{
-  background-color: lightcoral;
+  background-color: white;
+  display: flex;
 }
+.aboutLeft{
+  flex: 0.5;
+  overflow: hidden;
+  background-color: white;
+}
+.aboutTitle{
+  color: lightblue;
+}
+
+.aboutRight{
+  flex: 0.5;
+  position: relative;
+  background-color: white;
+} 
+.aboutImageContainer{
+  width:700px;
+  height: 700px;
+  background-color:lightblue;
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-end; 
+  justify-content:center;
+  float:left;
+}
+.bunny{
+  width: 100%;
+} 
