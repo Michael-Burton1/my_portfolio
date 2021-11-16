@@ -1,11 +1,11 @@
 import "./contact.css";
-import { useState } from 'react';
+// import { useState } from 'react';
 import emailjs from "emailjs-com";
 
 
 
 const Contact = () => {
-  const [message, setMessage]= useState(false);
+  // const [message, setMessage]= useState(false);
   const handleSubmit =(e)=>{
     e.preventDefault();
     emailjs.sendForm('service_qfecpfa', 'template_6bva6nh', e.target, 'user_Ie9bcXHAH6cUttYireDDD')
@@ -15,7 +15,7 @@ const Contact = () => {
         console.log(error.text);
     });
     e.target.reset()
-    setMessage(true);
+    // setMessage(true);
   }
   return (
     <div className="contact" id="contact">
