@@ -7,27 +7,27 @@ export default function Works() {
     {
       id: "1",
       icon: "./assets/javaScriptLogo.png",
-      title: "and chill",
+      title: "andCHILL",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+        'A "movie tinder" app that allows two users to find movies that they both want to watch. Finally, movie night is chill.',
       img:
-        "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
+        "./assets/andchill1.png",
     },
     {
       id: "2",
       icon: "./assets/cSharpIcon.png",
-      title: "Advice Generator",
+      title: "Goldblumin'",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "An app that generates advice as if from the mind of Jeff Goldblum.",
       img:
-        "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+        "./assets/advice.png",
     },
     {
       id: "3",
       icon: "./assets/apiLogo.png",
       title: "Restful API w/ swagger",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "A restful API written in C# with full CRUD and Swagger. What more could you ask for?",
       img:
         "./assets/swagger.png",
     },
