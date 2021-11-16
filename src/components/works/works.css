@@ -6,12 +6,6 @@
   position: relative;
 
 }
-.worksTitle{
-  color: crimson;
-  position:fixed;
-  /* align-items: start; */
-  justify-content: start;
-}
 
 .arrow {
   height: 50px;

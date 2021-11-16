@@ -5,10 +5,20 @@
 .aboutLeft{
   flex: 0.5;
   overflow: hidden;
+  display: flex;
   background-color: white;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: space-between;
+  
 }
 .aboutTitle{
   color: lightblue;
+  font-size: 50px;
+  
+}
+.aboutP{
+  font-size: 20px;
 }
 
 .aboutRight{

@@ -1,5 +1,6 @@
 import "./topbar.css"
-import { Person, Mail } from "@material-ui/icons"
+import { Mail, LinkedIn } from "@material-ui/icons"
+// import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export default function Topbar({menuOpen, setMenuOpen}) {
 //   let classes = "topBar";
@@ -12,8 +13,8 @@ export default function Topbar({menuOpen, setMenuOpen}) {
         <div className="topBarLeft">
           <a href="#intro" className="logo"><span className="emm">M</span>B</a>
           <div className="itemContainer">
-            <Person className="icon"/>
-            <span className="phone">509.280.2420</span>
+            <LinkedIn className="icon"/>
+            <span className="phone"><a className='linkedIn' href="https://www.linkedin.com/in/michael-burton-portland/">linkedin.com/in/michael-burton-portland/</a></span>
           </div>
           <div className="itemContainer">
             <Mail className="icon"/>
