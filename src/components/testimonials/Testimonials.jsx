@@ -7,20 +7,20 @@ const Testimonials = () => {
       id: 1,
       name: "Seth Medeiros",
       title: "Software Developer at Moica INC",
-      img:"https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/247452038_10217143156689774_7535865124869245748_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=gkGsFq7EM08AX8F9YxO&_nc_ht=scontent-sea1-1.xx&oh=5405b2ed11a9fca598f5f54eb7cf9f68&oe=6198D6A1",
+      img:"https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/247452038_10217143156689774_7535865124869245748_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=sXJ-ofHw_owAX-Zk8Wc&_nc_ht=scontent-sea1-1.xx&oh=4623a9a0e54b78b904cfdeba6e773925&oe=619EC561",
         // "?auto=compress&cs=tinysrgb&dpr=2&w=500",
       desc:
-        "Michael is ok to work with if you can get over the smell ",
+        "His strong suit is communication, he is someone that you want to have on your team to keep projects running smoothly",
     },
     {
       id: 2,
       name: "Marney Mallory",
       title: "Software Developer at Moica INC.",
       img:
-        "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/209447843_10159486145834583_2753750276695812586_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=nV3tlhYE9y8AX8LLPWw&_nc_ht=scontent-sea1-1.xx&oh=7401eaf155db9637d3d6c84d60abb0d2&oe=61979520",
+        "https://media-exp1.licdn.com/dms/image/C5603AQFm4DQN4UqylA/profile-displayphoto-shrink_200_200/0/1630101069244?e=1643241600&v=beta&t=jpm_ktfVwlTCuapvPFJf2fClE1NxLISouJcPkqnXFW4",
       desc:
-        "The last time I worked with Michael he was able to quickly fix most of the bugs he had created ",
-      featured: true,
+        "He was easy to work with and you could tell that he really took the time to make sure everyone had a good understanding of the project everystep of the way ",
+      featured: false,
     },
     {
       id: 3,
@@ -29,7 +29,7 @@ const Testimonials = () => {
       img:
         "https://dhuh3lqp0wlh3.cloudfront.net/fc/616480a9fd11e6b44a136e41ecc81f/house-sitter-isaac-moreno-salem-9ecdb084.jpg",
       desc:
-        "I don't know anyone named Michael Burton.......Oh....That guy? I thought his name was Stephen ",
+        "Michael has a great knack for quickly understanding application architectural structures and uses this to his advantage to consider app edge cases when developing  ",
     }
   ];
   return (
