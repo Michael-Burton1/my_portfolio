@@ -83,6 +83,36 @@
 }
 @media (max-width: 500px) {
   .testimonials {
-    justify-content: center;
+    justify-content: space-around;
+  }
+  .testimonialTitle {
+    font-size: 30px;
+  }
+  .testimonialContainer {
+    flex-direction: column;
+    height: 100%;
+  }  
+  .testimonialCard {
+    height: 180px;
+    margin: 10px 0;
+  }
+  .testimonialCard.featured{
+    width: 250px;
+    height: 180px;
+    margin: 0 30px;
+  }
+  .user {
+    height: 50px;
+    width: 50px;
+  }
+  .cardCenter {
+    font-size: 12px;
+    padding:5px;
+  }
+  .userName {
+    font-size: 14px;
+  }
+  .userTitle {
+    font-size: 13px;
   }
 }

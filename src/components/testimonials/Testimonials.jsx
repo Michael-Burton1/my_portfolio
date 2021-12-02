@@ -7,7 +7,7 @@ const Testimonials = () => {
       id: 1,
       name: "Seth Medeiros",
       title: "Software Developer at Moica INC",
-      img:"https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/247452038_10217143156689774_7535865124869245748_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=sXJ-ofHw_owAX-Zk8Wc&_nc_ht=scontent-sea1-1.xx&oh=4623a9a0e54b78b904cfdeba6e773925&oe=619EC561",
+      img:"https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/247452038_10217143156689774_7535865124869245748_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=Ho5jMf3H9ssAX9ZPq0N&_nc_ht=scontent-sea1-1.xx&oh=b0474fa7afe74522314a58195bb45cab&oe=61AE9761",
         // "?auto=compress&cs=tinysrgb&dpr=2&w=500",
       desc:
         "Michael has an exceptional ability for effectivly communicating his thoughts and intentions while debugging code"
@@ -19,7 +19,7 @@ const Testimonials = () => {
       img:
         "https://media-exp1.licdn.com/dms/image/C5603AQFm4DQN4UqylA/profile-displayphoto-shrink_200_200/0/1630101069244?e=1643241600&v=beta&t=jpm_ktfVwlTCuapvPFJf2fClE1NxLISouJcPkqnXFW4",
       desc:
-        "Micahel is a natural born problem solver and an excellent communicator. He is super fun to work with and is a valuable addition to any team",
+        "Michael is a natural born problem solver and an excellent communicator. He is super fun to work with and is a valuable addition to any team",
       featured: false,
     },
     {
