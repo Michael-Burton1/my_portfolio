@@ -106,3 +106,31 @@
   width: 400px;
   transform: rotate(-10deg);
 }
+@media (max-width: 500px) {
+  .arrow.left, .arrow.right {
+    display:none;
+  }
+  .slider {
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .item {
+    width: 80%;
+    height: 150px;
+    margin: 15px 0;
+  }
+  .worksImageContainer {
+    width: 20px;
+    height: 20px;
+  }
+  .iconImage{
+    width: 15px;
+  }
+  .projectTitle {
+    font-size: 13px;
+  }
+  .projectDesc{
+    display:none;
+  }
+}

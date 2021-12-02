@@ -61,3 +61,16 @@
   font-weight: 500;
   cursor: pointer;
 }
+@media (max-width: 500px) {
+  .contact {
+    flex-direction: column;
+  }
+  #formInputName, #formInputEmail{
+width: 200px;
+height: 20px;
+  }
+  #formTextArea {
+    width: 200px;
+    height: 100px;
+  }
+}

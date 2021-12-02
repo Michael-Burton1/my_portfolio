@@ -18,6 +18,7 @@
   
 }
 .aboutP{
+  margin-left: 10px;
   font-size: 20px;
 }
 
@@ -39,3 +40,12 @@
 .bunny{
   width: 100%;
 } 
+@media (max-width: 500px) {
+  .about {
+    flex-direction:column;
+    align-items: center;
+  }
+  .aboutImageContainer{
+    align-items: flex-start; 
+  }
+}

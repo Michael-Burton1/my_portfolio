@@ -41,14 +41,15 @@
     margin: 0 30px;
 }
 
-      .testimonialCard:hover{
-          transform: scale(1.1);
-      }
+.testimonialCard:hover{
+    transform: scale(1.1);
+}
 
 .cardTop {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 
@@ -79,4 +80,9 @@
 
 .userTitile{
     color: rgb(121, 115, 115);
+}
+@media (max-width: 500px) {
+  .testimonials {
+    justify-content: center;
+  }
 }
