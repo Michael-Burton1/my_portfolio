@@ -7,7 +7,7 @@ const Testimonials = () => {
       id: 1,
       name: "Seth Medeiros",
       title: "Software Developer at Moica INC",
-      img:"https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/247452038_10217143156689774_7535865124869245748_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=Ho5jMf3H9ssAX9ZPq0N&_nc_ht=scontent-sea1-1.xx&oh=b0474fa7afe74522314a58195bb45cab&oe=61AE9761",
+      img:"https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/247452038_10217143156689774_7535865124869245748_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=TzGWaVnWRoUAX87Smd5&_nc_ht=scontent-sea1-1.xx&oh=436d76e8ebb48bbbcf9c51f7db3bc801&oe=61B48621",
         // "?auto=compress&cs=tinysrgb&dpr=2&w=500",
       desc:
         "Michael has an exceptional ability for effectivly communicating his thoughts and intentions while debugging code"
