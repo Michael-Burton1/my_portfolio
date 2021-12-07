@@ -8,28 +8,29 @@ export default function Works() {
       id: "1",
       icon: "./assets/javaScriptLogo.png",
       title: "andCHILL",
-      desc:
-        'A "movie tinder" app that allows two users to find movies that they both want to watch. Finally, movie night is chill.',
-      img:
-        "./assets/andchill1.png",
+      desc: 'A "movie tinder" app that allows two users to find movies that they both want to watch. Finally, movie night is chill.',
+      img: "./assets/andchill1.png",
+      link: "https://github.com/Michael-Burton1/MovieMatcher"
     },
     {
       id: "2",
       icon: "./assets/cSharpIcon.png",
       title: "Goldblumin'",
       desc:
-        "An app that generates advice as if from the mind of Jeff Goldblum.",
+      "An app that generates advice as if from the mind of Jeff Goldblum.",
       img:
-        "./assets/advice.png",
+      "./assets/advice.png",
+      link: "https://github.com/Michael-Burton1/AdviceGenerator.Solution"
     },
     {
       id: "3",
       icon: "./assets/apiLogo.png",
       title: "Restful API w/ swagger",
       desc:
-        "A restful API written in C# with full CRUD and Swagger. What more could you ask for?",
+      "A restful API written in C# with full CRUD and Swagger. What more could you ask for?",
       img:
-        "./assets/swagger.png",
+      "./assets/swagger.png",
+      link: "https://github.com/Michael-Burton1/AnimalShelterAPI.Solution"
     },
   ];
 
@@ -56,7 +57,9 @@ export default function Works() {
                   </div>
                   <h2 className='projectTitle' >{d.title}</h2>
                   <p className='projectDesc' >{d.desc}</p>
-                  <span className='link' >Projects</span>
+                  <a href={d.link}>
+                    <span className='link' >Projects</span>
+                  </a>  
                 </div>
               </div>
               <div className="worksRight">
