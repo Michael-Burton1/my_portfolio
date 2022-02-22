@@ -6,18 +6,17 @@ const Testimonials = () => {
     {
       id: 1,
       name: "Seth Medeiros",
-      title: "Software Developer at Moica INC",
-      img:"https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/247452038_10217143156689774_7535865124869245748_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=TzGWaVnWRoUAX87Smd5&_nc_ht=scontent-sea1-1.xx&oh=436d76e8ebb48bbbcf9c51f7db3bc801&oe=61B48621",
-        // "?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      title: "Software Engineer at RsMedical",
+      img:"./assets/ sethHeadshot.png",
       desc:
         "Michael has an exceptional ability for effectivly communicating his thoughts and intentions while debugging code"
     },
     {
       id: 2,
       name: "Marney Mallory",
-      title: "Software Developer at Moica INC.",
+      title: "web designer with Great Things LLC",
       img:
-        "https://media-exp1.licdn.com/dms/image/C5603AQFm4DQN4UqylA/profile-displayphoto-shrink_200_200/0/1630101069244?e=1643241600&v=beta&t=jpm_ktfVwlTCuapvPFJf2fClE1NxLISouJcPkqnXFW4",
+        "./assets/marneyHeadshot.png",
       desc:
         "Michael is a natural born problem solver and an excellent communicator. He is super fun to work with and is a valuable addition to any team",
       featured: false,
@@ -25,7 +24,7 @@ const Testimonials = () => {
     {
       id: 3,
       name: "Isaac Moreno",
-      title: "QA specialist at Moica INC",
+      title: "software dev at The Outbound",
       img:
         "https://dhuh3lqp0wlh3.cloudfront.net/fc/616480a9fd11e6b44a136e41ecc81f/house-sitter-isaac-moreno-salem-9ecdb084.jpg",
       desc:
