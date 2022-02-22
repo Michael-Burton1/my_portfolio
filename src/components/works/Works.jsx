@@ -32,6 +32,14 @@ export default function Works() {
       "./assets/swagger.png",
       link: "https://github.com/Michael-Burton1/AnimalShelterAPI.Solution"
     },
+    {
+      id: "4",
+      icon: "./assets/javaScriptLogo.png",
+      title: "Pokemon Who",
+      desc: 'An application written with vanilla JavaScript, HTML, and CSS. This app is so basic it drinks pumpkin spice lattes',
+      img: "./assets/pokemonWho.png",
+      link: "https://github.com/Michael-Burton1/pokemonWho.git"
+    }
   ];
 
   const handleClick = (way) => {
